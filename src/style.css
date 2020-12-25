@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+ 
+a{
+    text-decoration: none;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+.MuiFormControl-root.MuiTextField-root
+{
+    width: 100% !important;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12
+{
+    margin-bottom: 20px !important;
+}
+
+.bottomFooter {
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 0 0px 5px 1px rgba(0,0,0,0.2);
+}
+.paginate-style li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+    background: #1769aa;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+}
